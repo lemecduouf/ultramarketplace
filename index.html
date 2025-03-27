@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UltraMarketplace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur UltraMarketplace</h1>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#ajout-produit">Ajouter un produit</a></li>
+                <li><a href="#produits">Produits</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="accueil">
+        <h2>Découvrez notre marketplace</h2>
+        <p>Une plateforme où vous pouvez acheter et vendre des produits facilement.</p>
+    </section>
+    
+    <section id="ajout-produit">
+        <h2>Ajouter un produit</h2>
+        <form action="">
+            <label for="nom-produit">Nom du produit :</label>
+            <input type="text" id="nom-produit" name="nom-produit" required>
+            
+            <label for="description-produit">Description :</label>
+            <textarea id="description-produit" name="description-produit" required></textarea>
+            
+            <label for="prix-produit">Prix (€) :</label>
+            <input type="number" id="prix-produit" name="prix-produit" required>
+            
+            <button type="submit">Ajouter</button>
+        </form>
+    </section>
+    
+    <section id="produits">
+        <h2>Nos produits</h2>
+        <div class="produit">
+            <h3>Exemple de produit</h3>
+            <p>Une description ici</p>
+            <p>Prix: 50€</p>
+            <button class="btn-paypal">Acheter avec PayPal</button>
+        </div>
+        <!-- Tu peux ajouter d'autres produits ici avec la même structure -->
+    </section>
+    
+    <footer>
+        <p>UltraMarketplace - Tous droits réservés</p>
+    </footer>
+</body>
+</html>
